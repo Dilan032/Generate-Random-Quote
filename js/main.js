@@ -1,5 +1,7 @@
-import { myApiKey } from "./config.js";
+//import api key from config.js file
+import { myApiKey } from "./config.js"; 
 
+//function for API to fetch the data
 async function fetchData() {
     const url = 'https://quotes15.p.rapidapi.com/quotes/random/';
     const options = {
@@ -21,3 +23,5 @@ async function fetchData() {
 }
 
 fetchData();
+
+
